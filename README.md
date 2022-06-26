@@ -12,6 +12,8 @@ With the variables tested in this analysis, the model does not effectively predi
 The design specifications for the MechaCar prototype require that the suspension coils PSI rating remain within 100 PSI of the prescribed 1500 pounds per square inch. Overall, the variance among all three manufacturing lots is 62.29 PSI, which does of course meet the design specifications. 
 However, digging deeper into the data on the three manufacturing lots, we find that variance is as high as it is because of manufacturing lot 3. Lot 1 had a tight variance at .97 PSI, and Lot 2 had a higher but still relatively tight variance at 7.47 PSI. Lot 3, however, went off the page at over 170 PSI. This analyst recommends halting further production and investigating how that variance occurred. 
 
+![this is an image](https://github.com/BartBachrach/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202022-06-26%20at%206.28.48%20PM.png)
+
 ## T-Tests on Suspension Coils
 The t-tests for lots 1 and 2 revealed that the mean PSI for suspension coils was not statistically different from the population mean, with the p-value for each being well above the assumed .05. In fact, the p-value for lot 1 was 1, and lot 2 was .6, meaning we have insufficient evidence to reject the null hypothesis that there is no statistical difference between those lots’ mean suspension coil PSI and the population mean of 1500. 
 The p-value for lot 3 sits at .04, just under the assumed p-value of .05, meaning there is sufficient evidence to reject the hypothesis that there is no statistical difference between the mean PSI of that group and the population. This is supported by our earlier summaries between the manufacturing lots and the mean PSI of those suspension coils. 
