@@ -2,7 +2,7 @@
 ## Linear Regression to Predict MPG
 The analysis of factors that affect the fuel economy of a vehicle included the vehicle’s weight, length, ground clearance, spoiler angle, and drivetrain (2wd or 4wd). The variable that most affected the fuel economy, that is, the variable that provided a non-random amount of variance in the testing was vehicle weight. The coefficient for the vehicle weight variable was 1.245e-3, meaning it was below the assumed p-value, and thus contributed most to the fuel economy of the vehicle. The other coefficients were above the assumed p-value of .05, meaning they were insufficient to reject the null hypothesis, and thus we have to conclude they did not contribute to the fuel economy of the vehicle. 
 
-[!this is an image](https://github.com/BartBachrach/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202022-06-21%20at%202.30.05%20PM.png)
+![this is an image](https://github.com/BartBachrach/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202022-06-21%20at%202.30.05%20PM.png)
 
 The slope of the line is largely considered to be zero, although one factor did affect the fuel economy of the vehicle, the other factors did not affect the mpg, and thus the line is mostly zero, with a slight negative slope, as the weight of the vehicle was negatively correlated to the fuel economy of the vehicle.
 
