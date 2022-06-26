@@ -18,6 +18,8 @@ However, digging deeper into the data on the three manufacturing lots, we find t
 The t-tests for lots 1 and 2 revealed that the mean PSI for suspension coils was not statistically different from the population mean, with the p-value for each being well above the assumed .05. In fact, the p-value for lot 1 was 1, and lot 2 was .6, meaning we have insufficient evidence to reject the null hypothesis that there is no statistical difference between those lots’ mean suspension coil PSI and the population mean of 1500. 
 The p-value for lot 3 sits at .04, just under the assumed p-value of .05, meaning there is sufficient evidence to reject the hypothesis that there is no statistical difference between the mean PSI of that group and the population. This is supported by our earlier summaries between the manufacturing lots and the mean PSI of those suspension coils. 
 
+![this is an image](https://github.com/BartBachrach/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202022-06-26%20at%206.24.43%20PM.png)
+
 ## Study Design: MechaCar vs Competition
 The MechaCar prototype will need to be evaluated against the competition, not just it’s own production lots. While many considerations come into play when considering purchasing a new vehicle, such as maintenance cost, cost to insure, and safety rating, one of the primary metrics drivers consider when purchasing a new vehicle is fuel economy. With the rising cost of oil and gas at the pump, fewer things are on the minds of consumers these days. 
 
